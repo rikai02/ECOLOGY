@@ -1,0 +1,148 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1594px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .start-image{
+    margin-top: 50px;
+  }
+
+  .start-image {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    order: -1;
+  }
+
+  .star-container {
+    order: -1;
+  }
+
+  .group {
+    position: relative;
+    width: 165.482px;
+    height: 153px;
+    margin: 297px 0 0 714px;
+    background: url(./assets/images/247e272d-44e4-41c0-ae20-8268756b02be.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .sent-success-text {
+    display: block;
+    position: relative;
+    height: 57px;
+    margin: 34px 0 0 642px;
+    color: #000000;
+    font-family: Source Serif 4, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.36px;
+  }
+  .login-success-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    width: 372px;
+    height: 58px;
+    margin: 12px 0 0 611px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Noto-Serif, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    z-index: 2;
+  }
+  .back {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 356px;
+    height: 64px;
+    margin: 53px 0 0 619px;
+    z-index: 3;
+  }
+  .button-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 353px;
+    height: 56px;
+    padding: 17px 152px 17px 152px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 3px solid #000000;
+    z-index: 4;
+    border-radius: 10px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 48px;
+    height: 20px;
+    color: #070707;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  

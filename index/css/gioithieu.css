@@ -1,0 +1,1152 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+
+.main-container {
+  position: relative;
+  width: 1594px;
+  height: 2214px;
+  margin: 0 auto;
+  font-size: 0px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.chuyen-cuu-ho-xanh {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 695px;
+  height: 110px;
+  margin: -307px 0 0 798px;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 38px;
+  text-align: center;
+  text-overflow: initial;
+  letter-spacing: 7.04px;
+  z-index: 2;
+  overflow: hidden;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle {
+  position: relative;
+  width: 1594px;
+  height: 151px;
+  margin: 197px 0 0 0;
+  background: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.untitled {
+  position: absolute;
+  width: 180px;
+  height: 85px;
+  top: 33px;
+  left: 50%;
+  background: url(../imagesgioithieu/1f6784f56612e6689fbe6772a18d72b0e7b34766.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-50%, 0);
+  z-index: 24;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 158px;
+  height: 71px;
+  top: 39px;
+  left: 1304px;
+  background: #f3a625;
+  z-index: 48;
+}
+.cua-hang {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 116px;
+  height: 22px;
+  top: 25px;
+  left: 21px;
+  color: #ffffff;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 49;
+}
+.bo-suu-tap {
+  position: absolute;
+  width: 117px;
+  height: 70px;
+  top: 40px;
+  left: 134px;
+  background: #29a13e;
+  z-index: 9;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 10;
+}
+.bo-suu-tap-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 73.5%;
+  height: 30%;
+  top: 34.29%;
+  left: 13.68%;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.thong-tin {
+  position: absolute;
+  width: 117px;
+  height: 70px;
+  top: 40px;
+  left: 268px;
+  background: #29a13e;
+  z-index: 12;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 13;
+}
+.thong-tin-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 73.5%;
+  height: 30%;
+  top: 34.29%;
+  left: 13.68%;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+}
+.lien-he {
+  position: absolute;
+  width: 117px;
+  height: 70px;
+  top: 40px;
+  left: 402px;
+  background: #29a13e;
+  z-index: 18;
+}
+.rectangle-6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 19;
+}
+.lien-he-7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 73.5%;
+  height: 30%;
+  top: 34.29%;
+  left: 13.68%;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 20;
+}
+.gioi-thieu {
+  position: absolute;
+  width: 117px;
+  height: 70px;
+  top: 40px;
+  left: 536px;
+  background: #29a13e;
+  z-index: 21;
+}
+.rectangle-8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 22;
+}
+.gioi-thieu-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 73.5%;
+  height: 30%;
+  top: 34.29%;
+  left: 13.68%;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 23;
+}
+.trang-chu {
+  position: absolute;
+  width: 117px;
+  height: 70px;
+  top: 41px;
+  left: 0;
+  background: #29a13e;
+  z-index: 15;
+}
+.rectangle-a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 16;
+}
+.trang-chu-b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 73.5%;
+  height: 30%;
+  top: 34.29%;
+  left: 13.68%;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+}
+.ellipse {
+  position: absolute;
+  width: 52px;
+  height: 50px;
+  top: 50px;
+  left: 1245px;
+  background: url(../imagesgioithieu/9c88e912-80d6-4784-92a7-b0b4106f9f16.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 44;
+}
+.group {
+  position: absolute;
+  width: 28.5px;
+  height: 25px;
+  top: 62px;
+  left: 1257px;
+  background: url(../imagesgioithieu/27e8c5f8-4b85-4b66-8504-db130eec96d4.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 46;
+}
+.flex-row-c {
+  position: relative;
+  width: 1594px;
+  height: 981px;
+  margin: 0 0 0 0;
+  z-index: 7;
+}
+.image {
+  position: absolute;
+  width: 676px;
+  height: 887px;
+  top: 0;
+  left: 0;
+  background: url(../imagesgioithieu/268b5c5561e7e978eef7713663152dbb19febf6b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.image {
+  animation: myAnimation 1.2s ease-in-out;
+}
+
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+}
+100% {
+  opacity: 1;
+  transform: scale(1);
+}
+}
+.cau-chuyen-cuu-ho-xanh {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 466px;
+  height: 57px;
+  top: 65px;
+  left: 913px;
+  color: #29a13e;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 37px;
+  text-align: center;
+  z-index: 5;
+}
+.bao-ve-moi-truong {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 385px;
+  height: 57px;
+  top: 133px;
+  left: 1013px;
+  color: #29a13e;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+  z-index: 4;
+}
+.rectangle-c {
+  position: absolute;
+  width: 97.975px;
+  height: 20.736px;
+  top: 141.561px;
+  left: 902px;
+  background: url(../imagesgioithieu/47b6d2a5-594d-4a55-aa6b-6fa614cd534d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.cuu-ho-xanh {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 593px;
+  height: 300px;
+  top: 228px;
+  left: 849px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justified;
+  z-index: 6;
+}
+.rectangle-d {
+  position: absolute;
+  width: 1594px;
+  height: 226px;
+  top: 755px;
+  left: 0;
+  background: #29a13e;
+  z-index: 7;
+}
+.danh-gia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 1321px;
+  height: 57px;
+  top: 94px;
+  left: calc(50% - 660px);
+  color: #ffffff;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 11.52px;
+  z-index: 8;
+}
+.title-h {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 1109px;
+  height: 50px;
+  margin: 119px 0 0 242px;
+  color: #0b254b;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.9px;
+  z-index: 98;
+}
+.description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 1109px;
+  height: 35px;
+  margin: 15px 0 0 242px;
+  color: #5e6e89;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27.6px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.1px;
+  z-index: 97;
+}
+.flex-row-dc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1110px;
+  height: 295px;
+  margin: 27px 0 0 241px;
+  z-index: 83;
+}
+.bg {
+  flex-shrink: 0;
+  position: relative;
+  width: 350px;
+  height: 295px;
+  background: #ffffff;
+  z-index: 59;
+  border-radius: 6px;
+  box-shadow: 0 4px 24px 0 rgba(139, 167, 178, 0.16);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.bg-e {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  margin: 33px 0 0 133px;
+  background: url(../imagesgioithieu/da4b0977-d177-432a-a79f-7bc2d4d2ed00.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 68;
+  border-radius: 50%;
+}
+.flex-row-bed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 145.946px;
+  height: 24px;
+  margin: 14px 0 0 102px;
+  z-index: 66;
+}
+.star {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/75b6899d-0f53-474c-a0ac-8c0294050764.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 62;
+}
+.star-f {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/8f24fcf5-98ce-4571-845b-7306a4390a9c.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 63;
+}
+.star-10 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/54d59930-002d-4731-a0ad-148b42ac7147.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 64;
+}
+.star-11 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/3f3e09a7-0c02-42c1-9896-76d03badb10f.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 65;
+}
+.star-12 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/8f5daf8d-fd74-4ed9-9549-63f666199d9b.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 66;
+}
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 304px;
+  height: 60px;
+  margin: 22px 0 0 28px;
+  color: #1c283f;
+  font-family: Noto Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  z-index: 60;
+}
+.title-13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 304px;
+  height: 24px;
+  margin: 6px 0 0 20px;
+  color: #1c283f;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 95;
+}
+.bg-14 {
+  flex-shrink: 0;
+  position: relative;
+  width: 350px;
+  height: 295px;
+  background: #ffffff;
+  z-index: 71;
+  border-radius: 6px;
+  box-shadow: 0 4px 24px 0 rgba(139, 167, 178, 0.16);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.bg-15 {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  margin: 33px 0 0 133px;
+  background: url(../imagesgioithieu/a9d36cf8-afe7-45fd-8541-294845674dbe.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 80;
+  border-radius: 50%;
+}
+.flex-row-fb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 145.946px;
+  height: 24px;
+  margin: 14px 0 0 102px;
+  z-index: 78;
+}
+.star-16 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/db903c31-1152-424e-9e0b-e2f3e893e9d5.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 74;
+}
+.star-17 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/05de0d72-4073-48b8-a267-6c451ed6e967.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 75;
+}
+.star-18 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/9c9c97a1-a48c-4f54-a07d-a1174b60847a.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 76;
+}
+.star-19 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/f2b0d0fe-c3f1-4a08-a214-3135fd725b58.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 77;
+}
+.star-1a {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/70700196-3c93-4e82-a2e8-36a972672867.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 78;
+}
+.title-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 304px;
+  height: 60px;
+  margin: 22px 0 0 28px;
+  color: #1c283f;
+  font-family: Noto Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  z-index: 72;
+}
+.title-1c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 304px;
+  height: 24px;
+  margin: 6px 0 0 23px;
+  color: #1c283f;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 94;
+}
+.bg-1d {
+  flex-shrink: 0;
+  position: relative;
+  width: 350px;
+  height: 295px;
+  background: #ffffff;
+  z-index: 83;
+  border-radius: 6px;
+  box-shadow: 0 4px 24px 0 rgba(139, 167, 178, 0.16);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.bg-1e {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  margin: 33px 0 0 133px;
+  background: url(../imagesgioithieu/3c24e73e-1c4f-42ba-bd45-1f0996d69269.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 92;
+  border-radius: 50%;
+}
+.flex-row-fda {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 145.946px;
+  height: 24px;
+  margin: 14px 0 0 102px;
+  z-index: 90;
+}
+.star-1f {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/a82bbc69-b4ca-4482-aa61-9ba80a778bf3.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 86;
+}
+.star-20 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/82219251-5da0-4d7b-9981-7ef54635d7c4.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 87;
+}
+.star-21 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/f90038a1-a47d-4828-9d12-e249be876266.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 88;
+}
+.star-22 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/608bda42-effd-4c4b-b890-c2e83c599c73.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 89;
+}
+.star-23 {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../imagesgioithieu/4564ec55-4679-4715-9537-a50882098281.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 90;
+}
+.title-24 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 304px;
+  height: 60px;
+  margin: 22px 0 0 28px;
+  color: #1c283f;
+  font-family: Noto Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: center;
+  z-index: 84;
+}
+.title-25 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 304px;
+  height: 24px;
+  margin: 6px 0 0 30px;
+  color: #1c283f;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 93;
+}
+.rectangle-26 {
+  position: relative;
+  width: 1594px;
+  height: 422px;
+  margin: 119px 0 0 0;
+  background: #d9d9d9;
+  z-index: 25;
+  overflow: visible auto;
+}
+.flex-row-cbe {
+  position: relative;
+  width: 1539px;
+  height: 34px;
+  margin: 61px 0 0 37px;
+  z-index: 29;
+}
+.thong-tin-cua-hang {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 34px;
+  top: 0;
+  left: calc(50% - 134.5px);
+  color: #000000;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32.904px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.eco-games {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 28px;
+  top: 3px;
+  left: 0;
+  color: #000000;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+}
+.lien-he-27 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 27px;
+  top: 3px;
+  left: calc(50% - -222.5px);
+  color: #000000;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 28;
+}
+.phong-trung-bay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 27px;
+  top: 3px;
+  left: calc(50% - -504.5px);
+  color: #000000;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.flex-row-eb {
+  position: relative;
+  width: 1524px;
+  height: 225px;
+  margin: 15px 0 0 37px;
+  z-index: 55;
+}
+.la-bai-moi {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 50%;
+  background: url(../imagesgioithieu/841c5eb71a3d27b91556c91eae5a03878d2ac198.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(731.43%, 0);
+  z-index: 50;
+}
+.new-card {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 50%;
+  background: url(../imagesgioithieu/6065aaa966165d199146fe117ba13a34f7d71a8d.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(860%, 0);
+  z-index: 52;
+}
+.new-card-28 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 50%;
+  background: url(../imagesgioithieu/05222dbfaca991f22490bbf8657be73d6c65fc15.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(988.57%, 0);
+  z-index: 54;
+}
+.collection {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 82px;
+  height: 17px;
+  top: 19px;
+  left: 670px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 31;
+}
+.contact-email {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 135px;
+  height: 17px;
+  top: 19px;
+  left: 1000px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 32;
+}
+.game-experience {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 433px;
+  height: 203px;
+  top: 22px;
+  left: 0;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.43px;
+  text-align: justified;
+  z-index: 30;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 61px;
+  height: 17px;
+  top: 60px;
+  left: 670px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 33;
+}
+.support-email {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 171px;
+  height: 17px;
+  top: 60px;
+  left: 1000px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 35;
+}
+.new-card-29 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 89px;
+  left: 50%;
+  background: url(../imagesgioithieu/ef33a2dce4ad107172372a74b90f39bb1400173b.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(731.43%, 0);
+  z-index: 51;
+}
+.new-card-2a {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 89px;
+  left: 50%;
+  background: url(../imagesgioithieu/074ed129a75a5a068462238e404044738a5e58c5.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(860%, 0);
+  z-index: 53;
+}
+.new-card-2b {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 89px;
+  left: 50%;
+  background: url(../imagesgioithieu/52094fd116bc684065275e5ab5b835f38c5f51ec.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(988.57%, 0);
+  z-index: 55;
+}
+.information {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  top: 101px;
+  left: 670px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 36;
+}
+.game-email {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 158px;
+  height: 17px;
+  top: 101px;
+  left: 1000px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 37;
+}
+.introduction {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  width: 85px;
+  height: 17px;
+  top: 142px;
+  left: 670px;
+  color: #000000;
+  font-family: Noto Serif, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: justified;
+  white-space: nowrap;
+  z-index: 34;
+}
+.rectangle-2c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1594px;
+  height: 59px;
+  margin: 28px 0 0 0;
+  background: #f3a625;
+  z-index: 40;
+}
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 214px;
+  height: 24px;
+  color: #000000;
+  font-family: Source Serif 4, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 40;
+}

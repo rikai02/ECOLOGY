@@ -1,0 +1,300 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1594px;
+    height: 1212px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1594px;
+    height: 151px;
+    margin: 0 0 0 0;
+    background: #ffffff;
+    z-index: 51;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .untitled {
+    position: absolute;
+    width: 180px;
+    height: 85px;
+    top: 32px;
+    left: 50%;
+    background: url(./assets/images/1f6784f56612e6689fbe6772a18d72b0e7b34766.png)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(-50%, 0);
+    z-index: 67;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 158px;
+    height: 71px;
+    top: 40px;
+    left: 1304px;
+    background: #f3a625;
+    z-index: 84;
+  }
+  .cua-hang {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 116px;
+    height: 22px;
+    top: 25px;
+    left: 21px;
+    color: #ffffff;
+    font-family: Source Serif 4, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 85;
+  }
+  .rectangle-2 {
+    position: absolute;
+    width: 7.34%;
+    height: 46.36%;
+    top: 26.49%;
+    left: 8.41%;
+    background: #ffffff;
+    z-index: 53;
+  }
+  .bo-suu-tap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 73.5%;
+    height: 30%;
+    top: 34.29%;
+    left: 13.68%;
+    color: #29a13e;
+    font-family: Fredoka, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 54;
+  }
+  .rectangle-3 {
+    position: absolute;
+    width: 7.34%;
+    height: 46.36%;
+    top: 26.49%;
+    left: 16.81%;
+    background: #ffffff;
+    z-index: 56;
+  }
+  .thong-tin {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 73.5%;
+    height: 30%;
+    top: 34.29%;
+    left: 13.68%;
+    color: #29a13e;
+    font-family: Fredoka, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 57;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 7.34%;
+    height: 46.36%;
+    top: 26.49%;
+    left: 25.22%;
+    background: #ffffff;
+    z-index: 62;
+  }
+  .lien-he {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 73.5%;
+    height: 30%;
+    top: 34.29%;
+    left: 13.68%;
+    color: #29a13e;
+    font-family: Fredoka, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 63;
+  }
+  .rectangle-5 {
+    position: absolute;
+    width: 7.34%;
+    height: 46.36%;
+    top: 26.49%;
+    left: 33.63%;
+    background: #ffffff;
+    z-index: 65;
+  }
+  .gioi-thieu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 73.5%;
+    height: 30%;
+    top: 34.29%;
+    left: 13.68%;
+    color: #29a13e;
+    font-family: Fredoka, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 66;
+  }
+  .rectangle-6 {
+    position: absolute;
+    width: 7.34%;
+    height: 46.36%;
+    top: 27.15%;
+    left: 0;
+    background: #ffffff;
+    z-index: 59;
+  }
+  .trang-chu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 73.5%;
+    height: 30%;
+    top: 34.29%;
+    left: 13.68%;
+    color: #29a13e;
+    font-family: Fredoka, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 60;
+  }
+  .ellipse {
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    top: 51px;
+    left: 1245px;
+    background: url(./assets/images/b4093d9b-9312-4407-90b3-8556a469acdd.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 80;
+  }
+  .group {
+    position: absolute;
+    width: 28.5px;
+    height: 25px;
+    top: 63px;
+    left: 1257px;
+    background: url(./assets/images/8662125d-bc30-4b01-9b1d-0eccb83b031d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 82;
+  }
+  .flex-row-a {
+    position: relative;
+    width: 1599.778px;
+    height: 1064.859px;
+    margin: -4px 0 0 -6px;
+    z-index: 72;
+  }
+  .vector {
+    position: absolute;
+    width: 223.688px;
+    height: 641.857px;
+    top: 0;
+    left: 6px;
+    background: url(./assets/images/71b0690d-211f-4c46-b8cb-a3f17ed661ec.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 48;
+  }
+  .vector-7 {
+    position: absolute;
+    width: 223.688px;
+    height: 641.857px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/23f91916-dc4e-485e-8f5a-76270d2833ad.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 49;
+  }
+  .board-game-cuu-ho-xanh {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 44px;
+    top: 91px;
+    left: 840px;
+    color: #000000;
+    font-family: Source Serif 4, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 43.872px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 9.912px;
+    position: absolute;
+    width: 129.508px;
+    height: 25.924px;
+    top: 100px;
+    left: 1240px;
+    z-index: 4;
+  }
+  .frame-8 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 5.337px;}
