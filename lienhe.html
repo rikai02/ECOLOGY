@@ -77,6 +77,12 @@
         </div>
         <span class="last-name">Last name</span>
         <input type="text" class="rectangle-12" contenteditable="true"></div>
+        <script>
+          const rectangle = document.querySelector('.rectangle-12');
+          rectangle.addEventListener('input', function(){
+            console.log('Nội Dung: ', rectangle.innerText);
+          });
+        </script>
         <div class="rectangle-13"><input type="text" id="last-name" placeholder="Last name" class="rectangle-13"></div>
         <span class="phone-number-14">Phone Number</span>
         <span class="email-15">Email</span>
